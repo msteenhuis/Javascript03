@@ -1,0 +1,2 @@
+1. Player and AI arrays - theyll have (rock, paper, scissor)
+2. Button for each item where you can select it, in a flexbox div

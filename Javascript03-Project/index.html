@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Extreme Rock-Paper-Scissor</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body onload="Initialize();">
+  <div class="Computer">
+    <div class="counter">
+      <p><img src="Images/Rock.png" height="100px"><span id="1">3</span></p>
+      <p><img src="Images/Paper.png" height="100px"><span id="2">3</span></p>
+      <p><img src="Images/Scissor.png" height="100px"><span id="3">3</span></p>
+    </div>
+    <button onClick="Reset();" align-items="center">Reset</button>
+  </div>
+  <div class="MessageBoard">
+    <p id="message"></p>
+  </div>
+  <div class="Player">
+
+    <div class="playButton">
+      <button onclick="Play(4);">Rock</button>
+      <button onclick="Play(5);">Paper</button>
+      <button onclick="Play(6);">Scissors</button>
+    </div>
+    <div class="counter">
+      <p><img src="Images/Rock.png" height="100px"><span id="4">3</span></p>
+      <p><img src="Images/Paper.png" height="100px"><span id="5">3</span></p>
+      <p><img src="Images/Scissor.png" height="100px"><span id="6">3</span></p>
+    </div>
+  </div>
+  <div class="Log">
+    <h1>Log of Moves</h1>
+    <ol id="logUpdate"></ol>
+  </div>
+</body>
+
+</html>

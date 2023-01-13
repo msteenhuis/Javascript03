@@ -1,0 +1,59 @@
+html, body{
+  background-color: #DF57BC;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    'Computer Computer Computer Computer Log'
+    'MessageBoard MessageBoard MessageBoard MessageBoard Log'
+    'Player Player Player Player Log';
+}
+
+.Computer {
+  height: 40vw;
+  width: 75vw;
+  grid-area: Computer;
+  background-color: #990033;
+  color: white;
+
+}
+
+.MessageBoard {
+  height: 20vw;
+  width: 75vw;
+  grid-area: MessageBoard;
+  background-color: #DDB967;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
+
+.Player {
+  height: 40vw;
+  width: 75vw;
+  grid-area: Player;
+  background-color: #124E78;
+  color: white;
+}
+
+.Log {
+  height: 100vw;
+  width: 25vw;
+  grid-area: Log;
+  background-color: #306B34;
+  color: white;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.playButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
